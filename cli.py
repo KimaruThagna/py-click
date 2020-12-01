@@ -9,7 +9,7 @@ parent_dir_path = os.path.abspath(os.path.join(dir_path, os.pardir))
 sys.path.insert(0, parent_dir_path)
 
 import argparse
-from datapane_cli.utils import *
+from utils import *
 
 parser = argparse.ArgumentParser(description='File handling CLI for CSV files')
 
